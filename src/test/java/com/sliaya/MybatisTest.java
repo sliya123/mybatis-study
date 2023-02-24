@@ -20,5 +20,6 @@ public class MybatisTest {
     public void test02(){
         User user = userMapper.getUserById(1);
         System.out.println("user = " + user);
+        System.out.println("user = " + user);
     }
 }
